@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="icon" href="https://img.icons8.com/external-becris-lineal-color-becris/64/000000/external-relaxation-alternative-medicine-becris-lineal-color-becris.png"/>
+    <link rel="stylesheet" href="ocean.css">
+    <link rel="icon" href="data:,">
+  <script src="https://kit.fontawesome.com/bdf40bcb56.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <div class="header">
+    
+    <div id="homepage">
+      <a href="/index.html"><i class="fa-solid fa-circle-arrow-left"></i></a>
+  </div>
+  
+    <div class="set-time">
+        <p>set time:</p>
+        <select id="time">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+        </select>
+        <p>min</p>
+    </div>
+</div>
+  
+    <div class="timer">
+        <span id="minutes">00</span>
+        <span>min</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span>sec</span>
+    </div>
+
+    <div class="btn-container">
+        <button id="start"><i class="fa-solid fa-circle-play"></i></button>
+        <button id="pause"><i class="fa-solid fa-circle-pause"></i></button>
+        <button id="reset"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+    </div>
+
+<audio id="player" loop><source src="https://cdn.glitch.global/9e586b01-3460-49ef-9b77-bf91e35693ce/audio2.mp3?v=1651699589295" type="audio/mp3"></audio>
+
+<video id="myVideo" loop muted defaultMuted playsinline><source src="https://cdn.glitch.global/9e586b01-3460-49ef-9b77-bf91e35693ce/video3.mp4?v=1651699628088" type="video/mp4"></video>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  
+<script src="ocean.js"></script>
+
+</body>
+</html>
